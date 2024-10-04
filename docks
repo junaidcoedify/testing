@@ -1,0 +1,1 @@
+docker run --name postgres-golang -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=coedify@123 -e POSTGRES_DB=postgres -p 5430:5430 -d postgres
